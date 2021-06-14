@@ -1,0 +1,36 @@
+<html>
+ <head>
+   <h1> Love Calculator </h1>
+   
+   <link rel="stylesheet" href="style.css">
+ </head>
+  
+  
+ <body> 
+   <div class="heart center"></div>
+   <div class="persons">
+      <div class="person" id="card1">
+        <p class="name" id="person1">Your Name</p>
+        <form>
+          <label for="fname" class="nameLabel">Enter name:</label>
+          <input type="text" id="nameInput1"/>
+        </form>
+        <button value ="update1" onClick="update1()" class="setButton" id="b1">SET</button>
+      </div>
+      <div class="person" id="card2">
+        <p class="name" id="person2">Partner Name</p>
+        <form>
+          <label for="fname" class="nameLabel">Enter name:</label>
+          <input type="text" id="nameInput2">
+        </form>
+        <button value ="update2" onClick="update2()" class="setButton" id="b2">SET</button>
+      </div>
+     <button  id="compute">CALCULATE</button>
+     <div id="resultLabelv"></div>
+   </div>
+   <script src="index.js"></script>
+ </body>
+  
+  
+  
+</html>
